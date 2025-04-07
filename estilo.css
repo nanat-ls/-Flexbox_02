@@ -36,23 +36,96 @@ h1 {
 /* Insira o código abaixo */
 
 .container1 {
+
+    justify-content: flex-start;/* usar o align items para vertical */
+    display: flex;
     
 }
 
 .container2 {
-    
+    display: flex;
+    justify-content: flex-end;
 }
 
 .container3 {
-   
+   display: flex;
+   justify-content: center;
 }
 
 .container4 {
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .container5 {
+     display: flex;
+    
+    align-items: center;
+    gap: 300px;
     
 }
-.container-6 {
-    
+.container5 .box1{
+    margin-right: 20px;
+    margin-left: 90px;
 }
+.container5 .box2{
+    margin-right: 40px;
+    margin-left: -20px;
+}
+.container5 .box3{
+    margin-right: 10px;
+    margin-left: -130px;
+}
+
+.container5 .box4{
+margin-left: -100px;
+margin-right: 80px;
+
+
+}
+.container6 {
+    display: flex;
+    
+    align-items: center;
+    gap: 300px;
+}
+
+.container6 .box1{
+    margin-right: 10px;
+    margin-left: 170px;
+}
+.container6 .box2{
+    margin-right: 20px;
+    margin-left: -60px;
+}
+.container6 .box3{
+    margin-right: 10px;
+    margin-left: -170px;
+}
+
+.container6 .box4{
+margin-left: -100px;
+margin-right: 80px;
+
+}
+
+
+
+/*exercicio B */
+.container-B {
+    display: flex;
+    
+    flex-direction: column-reverse;
+}
+
+
+/* desafio*/
+.container-Desafio {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse; /* para iverter a direcao da liha
+*/
+}
+
+
+
